@@ -1,12 +1,12 @@
-@media (min-width : 1500px) and (max-width : 1800) {
+@media (min-width : 1500px) {
   .welcome-thumb {
-    width: 50%;
+      width: 50%!important;
   }
 }
 
-@media (min-width : 1300px) and (max-width : 1500) {
+@media (min-width : 1300px) and (max-width : 1800px)  {
   .welcome-thumb {
-    width: 60%;
+      width: 60%!important;
   }
 }
 
