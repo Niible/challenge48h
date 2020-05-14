@@ -2,11 +2,17 @@
   .welcome-thumb {
       width: 50%!important;
   }
+  .taillelogo {
+    width: 15%!important;
+  }
 }
 
 @media (min-width : 1300px) and (max-width : 1800px)  {
   .welcome-thumb {
       width: 60%!important;
+  }
+  .taillelogo {
+    width: 20%!important;
   }
 }
 
