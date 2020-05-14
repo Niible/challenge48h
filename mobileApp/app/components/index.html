@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ODS Widgets Sandbox</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://opendatasoft.github.io/ods-widgets/dist/ods-widgets.css">
+    </head>
+    <body>
+        <h1>BITE</h1>
+        <div ng-cloak ng-app="ods-widgets">
+          <ods-dataset-context context="borsigpoubelles" borsigpoubelles-dataset="bor_sigpoubelles">
+              <ods-map no-refit="true" scroll-wheel-zoom="false" display-control="true" search-box="true" toolbar-fullscreen="true" toolbar-geolocation="true" auto-geolocation="true" basemap="jawg.streets" location="13,44.8535,-0.58725">
+                  <ods-map-layer-group>
+                      <ods-map-layer context="borsigpoubelles" color="#C32D1C" picto="ods-circle" show-marker="true" display="auto" shape-opacity="0.5" point-opacity="1" border-color="#FFFFFF" border-opacity="1" border-size="1" border-pattern="solid" caption="true" title="Mobiliers urbains : Poubelles de la ville de Bordeaux" description="Emplacement des corbeilles sur le domaine public" size="4" size-min="3" size-max="5" size-function="linear"></ods-map-layer>
+                  </ods-map-layer-group>
+              </ods-map>
+
+          </ods-dataset-context>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-sanitize.min.js"></script>
+        <script type="text/javascript" src="https://opendatasoft.github.io/ods-widgets/dist/ods-widgets.js"></script>
+    </body>
+</html>
