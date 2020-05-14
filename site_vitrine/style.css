@@ -618,6 +618,11 @@ p {
     justify-content: center;
 }
 
+.store {
+    background-color: grey;
+    color: white!important;
+}
+
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
