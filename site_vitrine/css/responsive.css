@@ -5,6 +5,10 @@
   .taillelogo {
     width: 15%!important;
   }
+  .header_area.sticky img {
+    width: 8%!important;
+    margin: 0;
+  }
 }
 
 @media (min-width : 1300px) and (max-width : 1800px)  {
@@ -13,6 +17,10 @@
   }
   .taillelogo {
     width: 20%!important;
+  }
+  .header_area.sticky img {
+    width: 8%!important;
+    margin: 0;
   }
 }
 
