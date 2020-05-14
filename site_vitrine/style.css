@@ -442,10 +442,10 @@ p {
 }
 
 .welcome-thumb {
-    width: 45%;
+    width: 65%;
     position: absolute;
-    bottom: -130px;
-    right: 85px;
+    bottom: -270px;
+    right: 20px;
     z-index: 9;
 }
 
