@@ -1,6 +1,6 @@
 <template>
 <Page actionBarHidden="true">
-  <WebView class="test" src="https://63377436.ngrok.io" />
+  <WebView class="test" src="https://challenge.48h.codes/map" />
 </Page>
 </template>
 
