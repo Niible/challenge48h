@@ -389,6 +389,7 @@ p {
 
 .taillelogo {
   width: 30%;
+  margin-top: 5%;
 }
 
 .header_area.sticky {
@@ -403,6 +404,7 @@ p {
 
 .header_area.sticky img {
   width: 10%;
+  margin: 0;
 }
 
 .header_area.sticky .menu_area .navbar-brand {
