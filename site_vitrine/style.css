@@ -421,7 +421,7 @@ p {
 :: 3.0 Wellcome Area CSS
 -------------------------- */
 
-.wellcome_area {
+.welcome_area {
     background-color: #53ba82;
     height: 900px;
     position: relative;
@@ -430,7 +430,7 @@ p {
     background-size: cover;
 }
 
-.wellcome_area:after {
+.welcome_area:after {
     position: absolute;
     width: 100%;
     left: 0;
@@ -454,7 +454,7 @@ p {
     width: 100%;
 }
 
-.wellcome-heading > h2 {
+.welcome-heading > h2 {
     font-size: 100px;
     color: #ffffff;
     font-weight: 700;
@@ -519,11 +519,11 @@ p {
     transition-duration: 500ms;
 }
 
-.wellcome-heading > p {
+.welcome-heading > p {
     color: #fff;
 }
 
-.wellcome-heading > h3 {
+.welcome-heading > h3 {
     font-size: 332px;
     position: absolute;
     top: -134px;
@@ -535,7 +535,7 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
-.wellcome-heading {
+.welcome-heading {
     margin-bottom: 100px;
 }
 
