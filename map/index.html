@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ODS Widgets Sandbox</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://opendatasoft.github.io/ods-widgets/dist/ods-widgets.css">
+    </head>
+    <body style="margin:0">
+        <div ng-cloak ng-app="ods-widgets" style="">
+          <ods-dataset-context
+            context="borsigpoubelles,borsigcendriers"
+            borsigcendriers-domain="opendata.bordeaux-metropole.fr"
+            borsigpoubelles-domain="opendata.bordeaux-metropole.fr"
+            borsigpoubelles-dataset="bor_sigpoubelles"
+            borsigcendriers-dataset="bor_sigcendriers">
+            <ods-map 
+              style="height:100vh; width:100vw;"
+              no-refit="true" 
+              scroll-wheel-zoom="true" 
+              display-control="false" 
+              search-box="false"
+              toolbar-drawing="false"
+              toolbar-fullscreen="false" 
+              toolbar-geolocation="true" 
+              auto-geolocation="true" 
+              basemap="jawg.streets"
+              location="18,44.83184,-0.5721">
+              <ods-map-layer-group>
+                  <ods-map-layer 
+                    context="borsigpoubelles"
+                    color="#64905C"
+                    picto="ods-waste_bin"
+                    show-marker="true"
+                    display="auto"
+                    shape-opacity="0.5"
+                    point-opacity="1"
+                    border-color="#FFFFFF"
+                    border-opacity="1"
+                    border-size="1"
+                    border-pattern="solid"
+                    show-zoom-min="7" show-zoom-max="22"
+                    size="3" size-min="3" size-max="5" size-function="linear">
+                  </ods-map-layer>
+              </ods-map-layer-group>
+              <ods-map-layer-group>
+                  <ods-map-layer 
+                    context="borsigcendriers"
+                    color="#BA022A"
+                    picto="ods-tobacco"
+                    show-marker="true"
+                    display="auto"
+                    shape-opacity="0.5"
+                    point-opacity="1"
+                    border-color="#FFFFFF"
+                    border-opacity="1"
+                    border-size="1"
+                    border-pattern="solid"
+                    caption-picto-color="#E5E5E5"
+                    show-zoom-min="7" show-zoom-max="22"
+                    size="2" size-min="3" size-max="5" size-function="linear">
+                  </ods-map-layer>
+              </ods-map-layer-group>
+            </ods-map>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-sanitize.min.js"></script>
+        <script type="text/javascript" src="https://opendatasoft.github.io/ods-widgets/dist/ods-widgets.js"></script>
+    </body>
+</html>
