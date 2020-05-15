@@ -14,3 +14,7 @@ Le site vitrine est disponible à l'adresse suivante : https://challenge.48h.cod
 ## Application Mobile
 
 L'application mobile est téléchargeable directement depuis le site ou sinon cliquez [ici](https://challenge.48h.codes/apk/Bordeaux-propre.apk)
+
+## Données
+
+Afin de recueillir les données, nous utilisons l'API de l'Atelier Open Data de Bordeaux Métropole, leur [site](https://opendata.bordeaux-metropole.fr/pages/accueil/)
