@@ -18,3 +18,7 @@ L'application mobile est téléchargeable directement depuis le site ou sinon cl
 ## Données
 
 Afin de recueillir les données, nous utilisons l'API de l'Atelier Open Data de Bordeaux Métropole, pour en savoir plus nous vous invitons à aller sur leur [site](https://opendata.bordeaux-metropole.fr/pages/accueil/)
+
+## Charte Graphique
+
+Retrouvez l'intégralité de notre charte graphique par [ici](https://challenge.48h.codes/file/charte_graphique.pdf)
